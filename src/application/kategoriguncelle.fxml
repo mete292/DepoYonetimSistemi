@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #006cff;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.kategoriguncellecontroller">
+   <children>
+      <Text fill="WHITE" layoutX="101.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ürün adi :" AnchorPane.leftAnchor="71.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="101.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ürünün yeni kategorisi :" AnchorPane.leftAnchor="71.2">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="urunadi" layoutX="322.0" layoutY="48.0" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="44.0" />
+      <TextField fx:id="urunkategorisi" layoutX="323.0" layoutY="98.0" AnchorPane.bottomAnchor="373.0" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="101.0" />
+      <Button layoutX="439.0" layoutY="144.0" mnemonicParsing="false" onAction="#eksilt" text="güncelle" />
+      <TextArea fx:id="textarea" layoutX="1.0" layoutY="208.0" prefHeight="200.0" prefWidth="700.0" />
+      <Button layoutX="523.0" layoutY="49.0" mnemonicParsing="false" onAction="#degis" prefHeight="62.0" prefWidth="138.0" text="Miktar güncelle" AnchorPane.bottomAnchor="409.6" AnchorPane.leftAnchor="534.0" AnchorPane.rightAnchor="43.2" AnchorPane.topAnchor="41.0" />
+   </children>
+</AnchorPane>

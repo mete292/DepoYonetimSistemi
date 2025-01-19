@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #009cff;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UrunSorgulaController">
+   <children>
+      <Text fill="WHITE" layoutX="46.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sorgulanacak ürünün adı :" wrappingWidth="263.03631591796875">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="urunadi" layoutX="332.0" layoutY="66.0" />
+      <Button layoutX="426.0" layoutY="123.0" mnemonicParsing="false" onAction="#sorgula" text="sorgula" />
+      <TextArea fx:id="textarea" layoutY="210.0" prefHeight="200.0" prefWidth="700.0" />
+   </children>
+</AnchorPane>

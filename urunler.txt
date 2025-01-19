@@ -1,0 +1,3 @@
+salatalik,sebze,10
+seftali,meyve,15
+cikolata,atistirmalik,1000000000

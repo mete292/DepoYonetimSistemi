@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #006cff;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UrunYazdirController">
+   <children>
+      <Button layoutX="61.0" layoutY="36.0" mnemonicParsing="false" onAction="#yazdir" prefHeight="36.0" prefWidth="113.0" text="Ürünleri yazdır" />
+      <TextArea fx:id="textarea" layoutX="-8.0" layoutY="150.0" prefHeight="200.0" prefWidth="708.0" />
+   </children>
+</AnchorPane>
